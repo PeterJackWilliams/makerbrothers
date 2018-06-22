@@ -4,6 +4,7 @@
     font-size: large;
     margin-top: 40;
     padding-right: 375;
+    border-bottom: inset;
 }
 .link {
     margin-left: 20px;
