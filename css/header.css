@@ -1,11 +1,11 @@
 .links {
     display: flex;
-    justify-content: center;
     font-size: large;
     margin-top: 40;
     border-bottom: inset;
     width: 100%;
     float: right;
+    padding-left: 420;
 }
 .link {
     margin-left: 20px;
