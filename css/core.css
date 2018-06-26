@@ -15,11 +15,11 @@
     font-size: small;
   }
 
-  .social {
+.social {
     position: absolute;
     margin-top: -30;
     max-width: 75;
-    margin-left: 875;
+    justify-content: right;
 }
 
 /* new */
