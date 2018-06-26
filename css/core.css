@@ -9,7 +9,8 @@
     border-top: 1px solid #494C4E;
     background-color: rgb(241, 241, 241);
     position: fixed;
-    bottom: 2;
+    bottom: 10;
     width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
   }
