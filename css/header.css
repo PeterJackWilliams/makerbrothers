@@ -3,7 +3,6 @@
     justify-content: flex-end;
     font-size: large;
     margin-top: 40;
-    padding-right: 600;
     border-bottom: inset;
 }
 .link {
@@ -20,5 +19,4 @@
 .header {
     font-size: -webkit-xxx-large;
     font-variant-caps: all-petite-caps;
-    padding-left: 580;
 }
