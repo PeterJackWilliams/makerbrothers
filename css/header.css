@@ -1,29 +1,18 @@
 .links {
-    display: flex;
-    font-size: large;
-    margin-top: 40;
-    border-bottom: inset;
-    width: 100%;
-    float: right;
-    padding-left: 420;
+   
 }
 .link {
-    margin-left: 20px;
+    
     color: #999;
-    text-decoration: none;
     font-variant-caps: all-petite-caps;
 }
 .headerandlinks {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box
+    
 }
 .header {
     font-size: -webkit-xxx-large;
     font-variant-caps: all-petite-caps;
-    padding-left: 380;
-    padding-top: 50;
+
     width: 100%;
     float: left;
 }
