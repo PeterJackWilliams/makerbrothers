@@ -19,4 +19,6 @@
 .header {
     font-size: -webkit-xxx-large;
     font-variant-caps: all-petite-caps;
+    padding-left: 380;
+    padding-top: 50;
 }
