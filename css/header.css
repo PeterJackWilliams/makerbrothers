@@ -23,5 +23,8 @@
     padding-top: 50;
 }
 .social {
-    max-width: 70%;
+    position: absolute;
+    margin-top: -30;
+    max-width: 75;
+    margin-left: 875;
 }
