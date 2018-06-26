@@ -4,6 +4,8 @@
     font-size: large;
     margin-top: 40;
     border-bottom: inset;
+    width: 20%;
+    float: right;
 }
 .link {
     margin-left: 20px;
@@ -15,12 +17,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box
 }
 .header {
     font-size: -webkit-xxx-large;
     font-variant-caps: all-petite-caps;
     padding-left: 380;
     padding-top: 50;
+    width: 20%;
+    float: left;
 }
 .social {
     position: absolute;
