@@ -1,8 +1,7 @@
 .links {
-   
+    text-align: center;
 }
 .link {
-    
     color: #999;
     font-variant-caps: all-petite-caps;
 }
@@ -12,11 +11,5 @@
 .header {
     font-size: -webkit-xxx-large;
     font-variant-caps: all-petite-caps;
-
-}
-.social {
-    position: absolute;
-    margin-top: -30;
-    max-width: 75;
-    margin-left: 875;
+    text-align: center;
 }

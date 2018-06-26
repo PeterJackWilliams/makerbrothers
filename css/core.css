@@ -15,6 +15,13 @@
     font-size: small;
   }
 
+  .social {
+    position: absolute;
+    margin-top: -30;
+    max-width: 75;
+    margin-left: 875;
+}
+
 /* new */
 
 body {
