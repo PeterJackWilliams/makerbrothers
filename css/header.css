@@ -14,11 +14,11 @@
     text-align: center;
 }
 
-.a {
+a {
     color: #999;
     transition: all 0.2s linear;
     }
 
-.a:hover, a:focus {
-    color:#777b7e;
+a:hover, a:focus {
+    color:#f3f3f3;
     }
