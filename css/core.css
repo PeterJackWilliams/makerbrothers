@@ -15,15 +15,6 @@
     font-size: small;
   }
 
-  a {
-    color: #6dd4b1;
-    transition: all 0.2s linear;
-    }
-    
-a:hover, a:focus {
-    color: #357099;
-    }
-
 .instagram {
     width: 60;
     max-width: 100%;
