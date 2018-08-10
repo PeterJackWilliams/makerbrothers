@@ -15,8 +15,10 @@
     font-size: small;
   }
 .logo {
-  max-width: 50%;
+  max-width: 35%;
   position: relative;
+  padding-top: 30;
+  padding-left: 40;
 }
 .instagram {
     width: 60;
