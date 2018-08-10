@@ -14,6 +14,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
   }
+.logo {
+  max-width: 50%;
+}
 
 .instagram {
     width: 60;
