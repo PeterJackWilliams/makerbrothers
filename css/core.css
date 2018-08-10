@@ -16,6 +16,7 @@
   }
 .logo {
   max-width: 50%;
+  position: relative;
 }
 .instagram {
     width: 60;
