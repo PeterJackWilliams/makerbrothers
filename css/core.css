@@ -15,8 +15,7 @@
     font-size: small;
   }
 .logo {
-  width: 950;
-  align-items: center;
+  max-width: 50%;
 }
 .instagram {
     width: 60;
