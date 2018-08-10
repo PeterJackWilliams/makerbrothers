@@ -17,11 +17,7 @@
 .logo {
   width: 950;
   align-items: center;
-  position: fixed;
-  max-width: 100%;
-  max-height: 100%;
 }
-
 .instagram {
     width: 60;
     max-width: 100%;
