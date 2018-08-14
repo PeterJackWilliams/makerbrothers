@@ -33,7 +33,8 @@
     margin: -2px 0px -100px 1255px;
 }
 .abouttext {
-padding: 40;
+  padding: 60;
+  white-space: pre-line;
 }
 
 /* new */
