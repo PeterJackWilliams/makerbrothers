@@ -39,10 +39,11 @@
   font-size: 16px;
 }
 .slideshow {
-  
+
 }
 .slideshowpictures {
-
+  max-width: 10%;
+  max-height: 10%
 }
 
 /* new */
