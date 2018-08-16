@@ -4,7 +4,6 @@
     padding-left: 10px;
     padding-top: 20px;
 }
-
 .footer {
     border-top: 0px solid rgb(241, 241, 241);
     background-color: rgb(255, 255, 255);
@@ -22,8 +21,9 @@
   padding-left: 40;
 }
 .buttons {
-  position: inherit;
+  position: absolute;
   margin-top: -22;
+  margin-left: 750;
 }
 .fb {
   width: 40;
