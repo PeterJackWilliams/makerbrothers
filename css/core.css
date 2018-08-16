@@ -46,7 +46,9 @@
   max-width: 60%;
 }
 .portfolio {
-
+  max-width: 90%;
+  position: sticky;
+  align-items: center;
 }
 /* new */
 
