@@ -13,6 +13,7 @@
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: small;
+    height: 45;
   }
 .logo {
   max-width: 35%;
@@ -21,10 +22,13 @@
   padding-left: 40;
 }
 .buttons {
-
+  position: inherit;
+  margin-left: 800;
+  margin-top: -22;
 }
 .fb {
   width: 40;
+  margin-bottom: -5;
 }
 .insta {
   width: 53;
