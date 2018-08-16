@@ -9,7 +9,7 @@
     border-top: 1px solid rgb(241, 241, 241);
     background-color: rgb(255, 255, 255);
     position: fixed;
-    bottom: 10;
+    bottom: 0;
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: small;
@@ -43,7 +43,7 @@
   padding-left: 60;
 }
 .work-item {
-  
+
 }
 /* new */
 
