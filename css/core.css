@@ -21,10 +21,13 @@
   padding-left: 40;
 }
 .buttons {
-
+width: 20;
 }
-.button {
-  max-width: 5%;
+.fb {
+  
+}
+.insta {
+  
 }
 .pagetext {
   padding: 60;
