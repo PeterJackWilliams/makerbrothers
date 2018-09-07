@@ -1,5 +1,4 @@
 .links {
-    text-align: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     max-width: 95%;
     position: relative;
@@ -11,7 +10,7 @@
     text-decoration: none;
     margin-left: 35;
 }
-.text{
+.text {
     align-items: baseline;
 }
 .header {
