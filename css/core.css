@@ -17,8 +17,8 @@
   }
 .logo {
   padding-top: 30;
-  width: 350;
   min-width: 40%;
+  max-width: 100%;
 }
 .buttons {
   position: relative;
@@ -49,6 +49,7 @@
 }
 .portfolio {
   margin-bottom: 80;
+  max-width: 100%;
 }
 /* new */
 
