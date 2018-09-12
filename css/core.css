@@ -16,14 +16,15 @@
     padding: 0px 100px;
   }
 .logo {
-  position: relative;
   padding-top: 30;
   width: 350;
+  min-width: 40%;
 }
 .buttons {
   position: relative;
   margin-top: -22;
   text-align: right;
+  padding-right: 60;
 }
 .fb {
   width: 40;
