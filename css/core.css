@@ -44,7 +44,9 @@
   text-align: center;
 }
 .work-item {
-  
+  width: 546px;
+  height: 364px;
+  max-width: 40%;
 }
 .portfolio {
   margin-bottom: 80;
