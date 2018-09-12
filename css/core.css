@@ -13,7 +13,6 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: small;
     height: 45;
-    padding: 0px 100px;
   }
 .logo {
   padding-top: 30;
@@ -25,7 +24,7 @@
   margin-top: -22;
   text-align: end;
   /* padding-right: 60; */
-  margin-right: 80;
+  margin-right: 47;
 }
 .fb {
   width: 40;
@@ -56,7 +55,9 @@
 .height {
   /* height: 368px; */
 }
-
+.footertext {
+  margin-right: 30px;
+}
 /* new */
 
 body {
