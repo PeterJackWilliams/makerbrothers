@@ -45,13 +45,11 @@
   -webkit-font-smoothing: antialiased;
 }
 .buttons {
-  display: inline-block;
   position: relative;
-  margin-top: 11px;
+  margin-top: -17px;
   padding-left: 10;
   font-size: x-large;
   display: inline-flex;
-  margin-top: -17px;
 }
 .fa {
   color: dimgrey;
