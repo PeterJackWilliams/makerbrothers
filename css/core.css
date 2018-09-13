@@ -22,6 +22,9 @@
   max-width: 70%;
   padding: 0px 10px 20px 10px;
 }
+.corksheight{
+  height: 350px;
+}
 .pagetext {
   padding: 60;
   white-space: pre-line;
