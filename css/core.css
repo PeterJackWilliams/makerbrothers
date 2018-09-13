@@ -20,20 +20,16 @@
   max-width: 100%;
 }
 .buttons {
-  position: relative;
-  margin-top: -22;
-  text-align: end;
-  /* padding-right: 60; */
-  margin-right: 47;
+ 
 }
 .fb {
-  width: 40;
+  /*width: 40;
   margin-bottom: -5;
   max-width: 12%;
 }
 .insta {
   width: 53;
-  max-width: 15%;
+  max-width: 15%;*/
 }
 .pagetext {
   padding: 60;
