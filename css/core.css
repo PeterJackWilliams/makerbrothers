@@ -54,20 +54,9 @@
   /* height: 368px; */
 }
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
+
 }
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-.fa-instagram {
-  background: rgb(206, 55, 125);
-  color: white;
+
 /* new */
 
 body {
