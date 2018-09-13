@@ -47,7 +47,6 @@
 .buttons {
   position: relative;
   margin-top: -17px;
-  padding-left: 10;
   font-size: x-large;
   display: inline-flex;
 }
