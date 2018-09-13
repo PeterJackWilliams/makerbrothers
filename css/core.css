@@ -5,14 +5,14 @@
     padding-top: 20px;
 }
 .footer {
-    border-top: 0px solid rgb(241, 241, 241);
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    bottom: -1;
-    width: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: small;
-    height: 45;
+  border-top: 0px solid rgb(241, 241, 241);
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  bottom: -1;
+  width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: small;
+  height: 45;
   }
 .logo {
   padding-top: 30;
@@ -21,15 +21,6 @@
 }
 .buttons {
  
-}
-.fb {
-  /*width: 40;
-  margin-bottom: -5;
-  max-width: 12%;
-}
-.insta {
-  width: 53;
-  max-width: 15%;*/
 }
 .pagetext {
   padding: 60;
@@ -50,12 +41,7 @@
   margin-bottom: 80;
   max-width: 100%;
 }
-.height {
-  /* height: 368px; */
-}
-.fa {
 
-}
 
 /* new */
 
