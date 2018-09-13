@@ -38,17 +38,6 @@
   font-size: small;
   height: 45;
   }
-/*.footer2 {
-  border-top: 0px solid rgb(241, 241, 241);
-  background-color: rgb(255, 255, 255);
-  position: fixed;
-  bottom: -1;
-  width: 20%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: small;
-  height: 45;
-  margin-left: 1166px;
-}*/
 .buttons {
   display: inline-block;
   position: relative;
@@ -57,6 +46,9 @@
 }
 .fa {
   color: dimgrey;
+}
+.styling {
+  
 }
 
 /* new */
