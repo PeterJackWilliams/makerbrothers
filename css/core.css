@@ -35,20 +35,26 @@
   bottom: -1;
   width: 100%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: small;
   height: 45;
   }
+.footertext {
+  font-size: small
+}
 .buttons {
   display: inline-block;
   position: relative;
   margin-top: 11px;
   padding-left: 10;
+  font-size: x-large;
+  display: inline-flex;
 }
 .fa {
   color: dimgrey;
 }
 .styling {
-  
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px 0px;
 }
 
 /* new */
