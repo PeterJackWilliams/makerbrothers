@@ -38,7 +38,8 @@
   height: 45;
   }
 .footertext {
-  font-size: small
+  font-size: small;
+  -webkit-font-smoothing: antialiased;
 }
 .buttons {
   display: inline-block;
@@ -47,15 +48,17 @@
   padding-left: 10;
   font-size: x-large;
   display: inline-flex;
+  margin-top: -17px;
 }
 .fa {
   color: dimgrey;
 }
 .styling {
   justify-content: space-between;
-  padding: 0px 5px 0px;
-  margin-right: 10%;
-  margin-left: 10%;
+    padding: 14px 3px 0px;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
 }
 
 /* new */
