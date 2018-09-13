@@ -38,7 +38,7 @@
   font-size: small;
   height: 45;
   }
-.footer2 {
+/*.footer2 {
   border-top: 0px solid rgb(241, 241, 241);
   background-color: rgb(255, 255, 255);
   position: fixed;
@@ -48,7 +48,7 @@
   font-size: small;
   height: 45;
   margin-left: 1166px;
-}
+}*/
 .buttons {
   display: inline-block;
   position: relative;
