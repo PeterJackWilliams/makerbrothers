@@ -17,12 +17,4 @@
     font-variant-caps: all-petite-caps;
     text-align: center;
 }
-
-.a {
-    color: #999;
-    transition: all 0.2s linear;
-    }
-
-a:hover, a:focus {
-    color:#bebebe;
-    }
+.
