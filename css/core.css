@@ -84,7 +84,14 @@ span.text-content {
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
 }
-ul.img-list li:hover span.text-content {
+ul.work li {
+  display: inline-block;
+  height: 150px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 150px;
+}
+ul.work li:hover span.text-content {
   opacity: 1;
 }
 span.text-content span {
