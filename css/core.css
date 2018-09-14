@@ -72,6 +72,7 @@ span.text-content {
   background: rgba(0,0,0,0.5);
   color: white;
   cursor: pointer;
+  opacity: 0;
   transition: opacity 500ms;
 }
 li:hover span.text-content {
