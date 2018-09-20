@@ -50,11 +50,17 @@
 .fade:hover {
   opacity: 0.5;
   }
-.fade :not(img) {
-  opacity: 0;
-  z-index: 1;
+.fade p {
+  position:absolute;
+  z-index:1;
+  top:30%;
+  width:100%;
+  text-align:center;
+  color:#fff;
+  opacity:0;
+  transition:.3s;
 }
-.fade:hover :not(img) {
+.fade:hover p {
   opacity: 1;
 }
 
