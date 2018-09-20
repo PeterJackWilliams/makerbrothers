@@ -14,12 +14,20 @@
 .work {
   margin: 40px 0px 80px;
   text-align: center;
-  display: inline-block;
+  display: list-item;
 }
 .work-item {
   width: 546px;
   max-width: 70%;
   padding: 0px 10px 20px 10px;
+}
+.container {
+  max-width: 1366px;
+  margin: 0 auto 0 auto;
+  padding: 0 40px 0 40px;
+  position: relative;
+  text-align: center;
+  display: -webkit-inline-box;
 }
 .imagetitle {
   position: absolute;
@@ -121,14 +129,6 @@ body {
     line-height: 1.5;
     margin-bottom: 45px;
 }
-  
-  .container {
-    max-width: 1366px;
-    margin: 0 auto 0 auto;
-    padding: 0 40px 0 40px;
-    position: relative;
-    text-align: center;
-  }
   
   .ellipsis {
     display: -webkit-box;
