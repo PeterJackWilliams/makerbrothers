@@ -29,26 +29,6 @@
   text-align: center;
   display: -webkit-inline-box;
 }
-.imagetitle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
-  -webkit-font-smoothing: antialiased;
-  color: rgb(54, 56, 56);
-}
-.imagesubheading {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 16px;
-  -webkit-font-smoothing: antialiased;
-  color: rgb(54, 56, 56);
-}
 .fade {
   opacity: 1;
   transition: opacity .25s ease-in-out;
@@ -70,6 +50,26 @@
 }
 .fade:hover p {
   opacity: 1;
+}
+.imagetitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(54, 56, 56);
+}
+.imagesubheading {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(54, 56, 56);
 }
 
 /* other pages images and text */
