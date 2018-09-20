@@ -69,7 +69,8 @@
 /* TEST */
 
 .fade {
-
+  width: 300px;
+  height: 200px;
 }
 .fade img {
   width: 100%;
