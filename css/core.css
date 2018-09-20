@@ -68,17 +68,30 @@
 
 /* TEST */
 
-img.fade:hover /* fade out on hover */ {
-  opacity:0.5;
+.fade {
+
 }
-img.fade + span /* hide spans immediately after images that are set to fade */ {
-  visibility:hidden;
+.fade img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  transition: .3s;
+}
+.fade:hover img {
+filter: blur(2px);
+}
+.fade :not(img) {
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+  color: #ffffff;
   text-align: center;
-  display: inline-block;
+  width: 100%;
 }
-img.fade:hover + span /* display spans immediately after :hover faded images */ {
-  visibility: visible;
+.fade h3 {
+
 }
+
 
 /* new */
 
