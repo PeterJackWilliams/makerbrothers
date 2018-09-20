@@ -47,27 +47,17 @@
 .container:hover .fadeintext {
   opacity: 1;
 }
-
-/*.fade {
-  opacity: 1;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
-}
-.fade:hover {
-  opacity: 0.5;
-  }*/
 .imagetitle {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
   -webkit-font-smoothing: antialiased;
-  color: rgb(54, 56, 56);
+  color: rgb(41, 41, 41);
 }
 .imagesubheading {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
-  color: rgb(54, 56, 56);
+  color: rgb(41, 41, 41);
 }
 
 /* other pages images and text */
