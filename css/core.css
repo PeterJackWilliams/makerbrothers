@@ -83,10 +83,16 @@ filter: blur(2px);
 .fade h3 {
 
 }
-.imagetext {
-  
+.container {
+  position: relative;
+  text-align: center;
 }
-
+.imagetext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /* new */
 
