@@ -38,7 +38,7 @@
 .fade:hover {
   opacity: 0.5;
   }
-.fade p {
+.fadep {
   position:absolute;
   z-index:1;
   top:30%;
@@ -48,7 +48,7 @@
   opacity:0;
   transition:.3s;
 }
-.fade:hover p {
+.fade:hoverp {
   opacity: 1;
 }
 .imagetitle {
