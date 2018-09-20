@@ -1,9 +1,7 @@
 /* put in here things that effect everything */
 
-/*.plm, .pvs {
-    padding-left: 10px;
-    padding-top: 20px;
-}*/
+/* images main page */
+
 .logo {
   padding-top: 30;
   min-width: 37%;
@@ -23,6 +21,38 @@
   max-width: 70%;
   padding: 0px 10px 20px 10px;
 }
+.imagetitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(54, 56, 56);
+}
+.imagesubheading {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(54, 56, 56);
+}
+.fade {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+.fade:hover {
+  opacity: 0.5;
+  }
+
+/* other pages images and text */
+
 .titleimage {
   width: 546px;
   max-width: 70%;
@@ -36,6 +66,9 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 16px;
 }
+
+/* footer */
+
 .footer {
   border-top: 0px solid rgb(241, 241, 241);
   background-color: rgb(255, 255, 255);
@@ -65,38 +98,6 @@
   margin-left: 10%;
   display: flex;
 }
-.imagetitle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
-  -webkit-font-smoothing: antialiased;
-  color: rgb(227, 240, 240);
-}
-.imagesubheading {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 16px;
-  -webkit-font-smoothing: antialiased;
-  color: rgb(227, 240, 240);
-}
-
-/* TEST */
-
-.fade {
-  opacity: 1;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
-}
-.fade:hover {
-  opacity: 0.5;
-  }
 
 /* new */
 
@@ -115,225 +116,6 @@ body {
     position: relative;
     text-align: center;
   }
-  
-  /*.h1, h2, h3, h4, h5, h6 {
-    font-family: 'futura-bold';
-  }
-  
-  .ptxs, .pvxs, .paxs {
-    padding-top: 5px;
-  }
-  
-  .pts, .pvs, .pas {
-    padding-top: 10px;
-  }
-  
-  .ptm, .pvm, .pam {
-    padding-top: 20px;
-  }
-  
-  .ptl, .pvl, .pal {
-    padding-top: 30px;
-  }
-  
-  .ptxl, .pvxl, .paxl {
-    padding-top: 40px;
-  }
-  
-  .prxs, .phxs, .paxs {
-    padding-right: 5px;
-  }
-  
-  .prs, .phs, .pas {
-    padding-right: 10px;
-  }
-  
-  .prm, .phm, .pam {
-    padding-right: 20px;
-  }
-  
-  .prl, .phl, .pal {
-    padding-right: 30px;
-  }
-  
-  .prxl, .phxl, .paxl {
-    padding-right: 40px;
-  }
-  
-  .pbxs, .pvxs, .paxs {
-    padding-bottom: 5px;
-  }
-  
-  .pbs, .pvs, .pas {
-    padding-bottom: 10px;
-  }
-  
-  .pbm, .pvm, .pam {
-    padding-bottom: 20px;
-  }
-  
-  .pbl, .pvl, .pal {
-    padding-bottom: 30px;
-  }
-  
-  .pbxl, .pvxl, .paxl {
-    padding-bottom: 40px;
-  }
-  
-  .plxs, .phxs, .paxs {
-    padding-left: 5px;
-  }
-  
-  .pls, .phs, .pas {
-    padding-left: 10px;
-  }
-  
-  .plm, .phm, .pam {
-    padding-left: 125px;
-  }
-  
-  .pll, .phl, .pal {
-    padding-left: 30px;
-  }
-  
-  .plxl, .phxl, .paxl {
-    padding-left: 40px;
-  }
-  
-  .mtxs, .mvxs, .maxs {
-    margin-top: 5px;
-  }
-  
-  .mts, .mvs, .mas {
-    margin-top: 10px;
-  }
-  
-  .mtm, .mvm, .mam {
-    margin-top: 20px;
-  }
-  
-  .mtl, .mvl, .mal {
-    margin-top: 30px;
-  }
-  
-  .mtxl, .mvxl, .maxl {
-    margin-top: 40px;
-  }
-  
-  .mrxs, .mhxs, .maxs {
-    margin-right: 5px;
-  }
-  
-  .mrs, .mhs, .mas {
-    margin-right: 10px;
-  }
-  
-  .mrm, .mhm, .mam {
-    margin-right: 20px;
-  }
-  
-  .mrl, .mhl, .mal {
-    margin-right: 30px;
-  }
-  
-  .mrxl, .mhxl, .maxl {
-    margin-right: 40px;
-  }
-  
-  .mbxs, .mvxs, .maxs {
-    margin-bottom: 5px;
-  }
-  
-  .mbs, .mvs, .mas {
-    margin-bottom: 10px;
-  }
-  
-  .mbm, .mvm, .mam {
-    margin-bottom: 20px;
-  }
-  
-  .mbl, .mvl, .mal {
-    margin-bottom: 30px;
-  }
-  
-  .mbxl, .mvxl, .maxl {
-    margin-bottom: 40px;
-  }
-  
-  .mls, .mhs, .mas {
-    margin-left: 10px;
-  }
-  
-  .mlm, .mhm, .mam {
-    margin-left: 20px;
-  }
-  
-  .mll, .mhl, .mal {
-    margin-left: 30px;
-  }
-  
-  .mlxl, .mhxl, .maxl {
-    margin-left: 40px;
-  }
-  
-  .atl, .at, .atr, .al, .ar, .abl, .ab, .abr,
-  .atm, .abm, .amm, .alm, .arm {
-    position: absolute;
-  }
-  
-  .at, .atr, .atl {
-    top: 0px;
-  }
-  
-  .ab, .abr, .abl {
-    bottom: 0px;
-  }
-  
-  .al, .atl, .abl {
-    left: 0px;
-  }
-  
-  .ar, .atr, .abr {
-    right: 0px;
-  }
-  
-  .atm,
-  .abm,
-  .amm,
-  .alm,
-  .arm {
-    -webkit-filter: blur(0);
-  }
-  
-  .atm {
-    left: 50%;
-    top: 0;
-    transform: translateX(-50%);
-  }
-  
-  .abm {
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-  }
-  
-  .amm {
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .alm {
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  
-  .arm {
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-  }*/
   
   .ellipsis {
     display: -webkit-box;
