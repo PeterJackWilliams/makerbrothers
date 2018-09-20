@@ -18,14 +18,12 @@
 }
 .container {
   max-width: 1366px;
-  margin: 0 auto 0 auto;
-  padding: 0 40px 0 40px;
   position: relative;
   text-align: center;
-  display: -webkit-inline-box;
+  display: inline;
 }
 .work-item {
-  width: 546px;
+  width: 600px;
   max-width: 70%;
   padding: 0px 10px 20px 10px;
   opacity: 1;
@@ -36,7 +34,7 @@
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 50%;
+  top: -200%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
