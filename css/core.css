@@ -69,10 +69,12 @@
 /* TEST */
 
 .fade img {
+  opacity: 1;
   border-radius: 4px;
   transition: .3s;
 }
 .fade:hover img {
+  opacity: 0.5;
 filter: blur(2px);
 }
 .fade :not(img) {
@@ -83,13 +85,15 @@ filter: blur(2px);
 .fade h3 {
 
 }
-.container {
-  position: relative;
-  text-align: center;
-}
-.imagetext {
+.imagetitle {
   position: absolute;
   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.imagesubheading {
+  position: absolute;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -108,6 +112,8 @@ body {
     max-width: 1366px;
     margin: 0 auto 0 auto;
     padding: 0 40px 0 40px;
+    position: relative;
+    text-align: center;
   }
   
   /*.h1, h2, h3, h4, h5, h6 {
