@@ -50,6 +50,12 @@
 .fade:hover {
   opacity: 0.5;
   }
+.fade p {
+  opacity: 0;
+}
+.fade:hover p {
+  opacity: 1;
+}
 
 /* other pages images and text */
 
