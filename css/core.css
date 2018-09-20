@@ -73,6 +73,8 @@ img.fade:hover /* fade out on hover */ {
 }
 img.fade + span /* hide spans immediately after images that are set to fade */ {
   visibility:hidden;
+  text-align: center;
+  display: inline-block;
 }
 img.fade:hover + span /* display spans immediately after :hover faded images */ {
   visibility: visible;
