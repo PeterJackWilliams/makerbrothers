@@ -52,6 +52,7 @@
   }
 .fade :not(img) {
   opacity: 0;
+  z-index: 1;
 }
 .fade:hover :not(img) {
   opacity: 1;
