@@ -76,10 +76,6 @@ img.fade + span /* hide spans immediately after images that are set to fade */ {
 }
 img.fade:hover + span /* display spans immediately after :hover faded images */ {
   visibility: visible;
-  width: 546px;
-  max-width: 70%;
-  padding: 0px 10px 20px 10px;
-  margin: 40px 0px 80px;
   text-align: center;
   display: inline-block;
 }
