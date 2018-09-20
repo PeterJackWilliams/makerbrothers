@@ -50,10 +50,10 @@
 .fade:hover {
   opacity: 0.5;
   }
-.fade p {
+.fade :not(img) {
   opacity: 0;
 }
-.fade:hover p {
+.fade:hover :not(img) {
   opacity: 1;
 }
 
