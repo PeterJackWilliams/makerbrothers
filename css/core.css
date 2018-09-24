@@ -80,7 +80,13 @@
 }
 
 /* contact page */
-
+.contactelements {
+  display: flex;
+  position: sticky;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
 .contacttext {
   white-space: pre-line;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -91,12 +97,6 @@
   height: 450;
   margin-left: 50px;
   max-width: 66%;
-}
-.contactelements {
-  display: flex;
-  position: sticky;
-  justify-content: center;
-  margin-top: 60px;
 }
 /* footer */
 
