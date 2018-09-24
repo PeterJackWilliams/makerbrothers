@@ -63,7 +63,7 @@
 /* other pages images and text */
 
 .main {
-  
+  display: inline-grid;
 }
 .titleimage {
   width: 546px;
