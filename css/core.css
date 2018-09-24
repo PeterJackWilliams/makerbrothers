@@ -65,10 +65,14 @@
 
 .secondrywork {
   position: absolute;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 150px;
 }
 .secondrywork-item {
   width: 600px;
   max-width: 70%;
+  margin: 10px;
 }
 .main {
   display: inline-grid;
