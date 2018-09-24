@@ -1,13 +1,16 @@
 .links {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     max-width: 98%;
+    position: relative;
+    display: list-item;
+    text-align: center;
 }
 .link {
     color: #999;
     font-variant-caps: all-petite-caps;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
     text-decoration: none;
-    margin-left: 35;
+    margin: 50;
 }
 .text {
     text-align: center;
