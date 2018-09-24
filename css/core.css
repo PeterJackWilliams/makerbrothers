@@ -73,10 +73,17 @@
   margin-right: 73px;
 }
 .pagetext {
-  padding: 60px 48px 40px 48px;
+  padding: 56px 85px 40px 85px;
   white-space: pre-line;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 16px;
+}
+
+/* google maps */
+
+.maps {
+  width: 600;
+  height: 450;
 }
 
 /* footer */
