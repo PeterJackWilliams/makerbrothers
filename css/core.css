@@ -66,8 +66,9 @@
 .secondrywork {
   position: absolute;
   text-align: center;
-  padding-top: 22px;
+  padding-top: 507px;
   padding-bottom: 150px;
+  margin-top: 40px;
 }
 .secondrywork-item {
   width: 600px;
@@ -81,13 +82,14 @@
   width: 546px;
   max-width: 70%;
   float: right;
-  margin-top: -323px;
+  margin-top: -77px;
   margin-right: 73px;
   position: relative;
   z-index: 1;
 }
 .pagetext {
-  padding: 56px 85px 40px 85px;
+  padding: 33px 85px 40px 85px;
+  margin-bottom: 60;
   white-space: pre-line;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 16px;
@@ -126,6 +128,7 @@
   width: 100%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   height: 45;
+  z-index: 3;
   }
 .footertext {
   font-size: small;
