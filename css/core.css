@@ -123,6 +123,7 @@
 }
 .fa {
   color: dimgrey;
+  text-decoration: none;
 }
 .styling {
   justify-content: space-between;
