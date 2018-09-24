@@ -63,6 +63,13 @@
 
 /* other pages images and text */
 
+.secondrywork {
+  position: absolute;
+}
+.secondrywork-item {
+  width: 600px;
+  max-width: 70%;
+}
 .main {
   display: inline-grid;
 }
