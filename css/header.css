@@ -13,7 +13,7 @@
     margin: 33;
 }
 .text {
-    text-align: center;
+    text-align: -webkit-center;
 }
 .header {
     font-size: -webkit-xxx-large;

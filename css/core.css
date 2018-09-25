@@ -123,10 +123,10 @@
 
 .abouttext {
   white-space: pre-line;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 22px;
-    margin-bottom: 150px;
-    max-width: 70%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 22px;
+  margin-bottom: 200px;
+  padding: 50px 60px;
 }
 
 /* footer */
