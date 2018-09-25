@@ -34,7 +34,8 @@
     
 }
 .pageheadings {
-
+    padding: 100px 0px 0px 70px;
+    float: left;
 }
 .a {
     color: #999;
