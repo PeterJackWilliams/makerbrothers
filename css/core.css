@@ -40,7 +40,7 @@
   transform: translate(-50%, -50%);
 }
 .container:hover .work-item {
-  opacity: 0.3;
+  opacity: 0.2;
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
