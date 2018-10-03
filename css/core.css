@@ -196,14 +196,14 @@
   }
 }
 /* If screen size is 375px wide, or less */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   .heading, .subheading {
     text-align: center;
     letter-spacing: 12px;
   }
 }
 /* If screen size is more than 376px wide, or more*/
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 377px) {
   .heading, .subheading {
     text-align: left;
     letter-spacing: 12px;
