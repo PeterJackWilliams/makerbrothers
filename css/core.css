@@ -192,7 +192,7 @@
 /* If screen size is more than 376px wide, or more*/
 @media screen and (min-width: 376px) {
   .fadeintext {
-    top: -210px
+    top: -211px
   }
 }
 
