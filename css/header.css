@@ -29,12 +29,10 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-top: 10px;
 }
-
 .a {
     color: #999;
     transition: all 0.2s linear;
     }
-
 a:hover, a:focus {
     color:#bebebe;
     }
