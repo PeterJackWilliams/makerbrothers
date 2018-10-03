@@ -142,13 +142,13 @@
   }
 }
 /* If screen size is 376px wide or less */
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 377px) {
   .pagetext {
     padding: 33px 40px 40px 52px;
   }
 }
 /* If screen size is 768px wide or less */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .pagetext {
     padding: 33px 0px 40px 202px;
   }
