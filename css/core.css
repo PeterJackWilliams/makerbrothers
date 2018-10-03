@@ -165,6 +165,24 @@
     padding: 33px 85px 40px 87px;
   }
 }
+/* If screen size is 768px wide, or less */
+@media screen and (max-width: 768px) {
+  .titleimage {
+   margin-right: 52px;
+  }
+}
+/* If screen size is more than 768px wide, or more*/
+@media screen and (min-width: 768px) {
+  .titleimage {
+    margin-right: 114px;
+  }
+}
+/* If screen size is more than 1366px wide, or more*/
+@media screen and (min-width: 1366px) {
+  .titleimage {
+    margin-right: 52px;
+  }
+}
 
 
 /* contact page */
