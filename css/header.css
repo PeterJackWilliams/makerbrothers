@@ -19,21 +19,14 @@
     font-variant-caps: all-petite-caps;
     text-align: center;
 }
-.pageheadings {
-    padding: 0px 50px 0px 87px;
-}
 .heading {
     font-size: 45px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: left;
-    letter-spacing: 11px;
     padding-top: 77px;
 }
 .subheading {
     font-size: medium;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: left;
-    letter-spacing: 20;
     padding-top: 10px;
 }
 

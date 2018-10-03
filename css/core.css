@@ -204,9 +204,18 @@
 }
 /* If screen size is more than 376px wide, or more*/
 @media screen and (min-width: 377px) {
-  .heading, .subheading {
+  .subheading {
     text-align: left;
-    letter-spacing: 12px;
+    letter-spacing: 20px;
+    padding: 0px 50px 0px 87px;
+  }
+}
+/* If screen size is more than 376px wide, or more*/
+@media screen and (min-width: 377px) {
+  .heading {
+    text-align: left;
+    letter-spacing: 11px;
+    padding: 0px 50px 0px 87px;
   }
 }
 
