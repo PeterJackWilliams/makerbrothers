@@ -105,6 +105,15 @@
   float: left;
 }
 
+/* mdeia queries */
+
+/* If screen size is 600px wide, or less */
+@media screen and (max-width: 375px) {
+  .secondrywork {
+    display:
+  }
+}
+
 /* contact page */
 .contactelements {
   display: flex;
