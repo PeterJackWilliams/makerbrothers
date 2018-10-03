@@ -72,9 +72,7 @@
 .secondrywork {
   position: absolute;
   text-align: center;
-  padding-top: 490px;
   padding-bottom: 150px;
-  margin-top: 40px;
 }
 .secondrywork-item {
   width: 650px;
@@ -111,6 +109,12 @@
 @media screen and (max-width: 375px) {
   .secondrywork {
     margin-top: 155px;
+  }
+}
+/* If screen size is more than 600px wide */
+@media screen and (min-width: 375px) {
+  .secondrywork {
+    margin-top: 400px;
   }
 }
 
