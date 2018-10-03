@@ -110,7 +110,7 @@
 /* If screen size is 375px wide, or less */
 @media screen and (max-width: 375px) {
   .secondrywork {
-    padding-top: 650px;
+    margin-top: 155px;
   }
 }
 
