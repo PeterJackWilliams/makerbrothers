@@ -141,6 +141,24 @@
     margin-top: 400px;
   }
 }
+/* If screen size is 376px wide or less */
+@media screen and (max-width: 376px) {
+  .pagetext {
+    padding: 33px 40px 40px 52px;
+  }
+}
+/* If screen size is 768px wide or less */
+@media screen and (max-width: 768px) {
+  .pagetext {
+    padding: 33px 0px 40px 202px;
+  }
+}
+/* If screen size is 1366px wide or less */
+@media screen and (max-width: 1366px) {
+  .pagetext {
+    padding: 33px 85px 40px 85px;
+  }
+}
 
 
 /* contact page */
