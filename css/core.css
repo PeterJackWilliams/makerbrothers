@@ -183,7 +183,18 @@
     margin-right: 52px;
   }
 }
-
+/* If screen size is 375px wide, or less */
+@media screen and (max-width: 375px) {
+  .fadeintext {
+    top: -100px
+  }
+}
+/* If screen size is more than 376px wide, or more*/
+@media screen and (min-width: 376px) {
+  .fadeintext {
+    top: -210px
+  }
+}
 
 /* contact page */
 .contactelements {
