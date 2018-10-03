@@ -195,6 +195,21 @@
     top: -211px
   }
 }
+/* If screen size is 375px wide, or less */
+@media screen and (max-width: 375px) {
+  .heading, .subheading {
+    text-align: center;
+    letter-spacing: 12px;
+  }
+}
+/* If screen size is more than 376px wide, or more*/
+@media screen and (min-width: 376px) {
+  .heading, .subheading {
+    text-align: left;
+    letter-spacing: 12px;
+  }
+}
+
 
 /* contact page */
 .contactelements {
