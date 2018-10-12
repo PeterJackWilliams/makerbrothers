@@ -1,3 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} !^www\.makerbrothers.co.uk\.co.uk
-RewriteRule (.*) http://www.makerbrothers.co.uk.co.uk/$1 [R=301,L]
