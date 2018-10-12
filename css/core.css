@@ -271,8 +271,8 @@
 }
 .buttons {
   position: relative;
-  margin-top: -17px;
-  font-size: x-large;
+  margin-top: -25px;
+  font-size: 35px;
   display: inline-flex;
 }
 .fa {
