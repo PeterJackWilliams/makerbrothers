@@ -251,14 +251,15 @@
   font-size: 22px;
   margin-bottom: 200px;
 }
-/* If screen size is 375px wide, or less */
+/* If screen size is 376px wide, or less */
 @media screen and (max-width: 376px) {
   .abouttext {
     padding: 50px 37px 50px 41px;
   }
+/* If screen size is more than 377px wide, or more*/
 @media screen and (min-width: 377px) {
   .abouttext {
-    padding: 50px 700px 50px 87px;
+    padding: 50px 200px 500px 41px;
   }
 }
 
