@@ -221,7 +221,7 @@
 
 
 /* contact page */
-.contactelements {
+/*.contactelements {
   display: flex;
   position: sticky;
   justify-content: space-evenly;
@@ -229,7 +229,7 @@
   margin-bottom: 150px;
   margin-left: 20px;
   margin-right: 20px;
-}
+}*/
 .contacttext {
   white-space: pre-line;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -239,8 +239,57 @@
 .maps {
   width: 600;
   height: 450;
-  max-width: 66%;
 }
+/* If screen size is 375px wide, or less */
+@media screen and (max-width: 375px) {
+  .maps {
+    margin: 270px 283px 150px 108px;
+    max-width: 100%;
+  }
+}
+/* If screen size is more than 376px wide, or more*/
+@media screen and (min-width: 376px) {
+  .maps {
+    max-width: 66%;
+  }
+}
+/* If screen size is 375px wide, or less */
+@media screen and (max-width: 375px) {
+  .contacttext {
+
+  }
+}
+/* If screen size is more than 376px wide, or more*/
+@media screen and (min-width: 376px) {
+  .contacttext {
+    
+  }
+}
+/* If screen size is 375px wide, or less */
+@media screen and (max-width: 375px) {
+  .contactelements {
+    display: inline-block;
+    position: sticky;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+/* If screen size is more than 376px wide, or more*/
+@media screen and (min-width: 376px) {
+  .contactelements {
+  display: flex;
+  position: sticky;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  margin-bottom: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+}
+
 
 /* about page */
 
