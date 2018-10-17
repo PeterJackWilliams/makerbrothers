@@ -243,7 +243,6 @@
 /* If screen size is 375px wide, or less */
 @media screen and (max-width: 375px) {
   .maps {
-    margin: 270px 283px 150px 108px;
     max-width: 100%;
   }
 }
