@@ -243,7 +243,9 @@
 /* If screen size is 375px wide, or less */
 @media screen and (max-width: 375px) {
   .maps {
-    max-width: 100%;
+    max-width: 95%;
+    padding-left: 5%;
+    margin-bottom: 150px;
   }
 }
 /* If screen size is more than 376px wide, or more*/
@@ -255,13 +257,15 @@
 /* If screen size is 375px wide, or less */
 @media screen and (max-width: 375px) {
   .contacttext {
-
+    margin: 30px auto;
+    text-align: center;
+    font-size: 20px;
   }
 }
 /* If screen size is more than 376px wide, or more*/
 @media screen and (min-width: 376px) {
   .contacttext {
-    
+    font-size: 16px;
   }
 }
 /* If screen size is 375px wide, or less */
