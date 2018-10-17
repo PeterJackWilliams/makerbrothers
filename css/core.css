@@ -271,10 +271,6 @@
     display: inline-block;
     position: sticky;
     justify-content: center;
-    margin-top: 60px;
-    margin-bottom: 150px;
-    margin-left: 20px;
-    margin-right: 20px;
   }
 }
 /* If screen size is more than 376px wide, or more*/
