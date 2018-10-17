@@ -131,7 +131,7 @@
 }
 /* If screen size is 1366px wide or less */
 @media screen and (max-width: 1366px) {
-  .secondary work {
+  .secondarywork {
     margin-top: 400px;
   }
 }
