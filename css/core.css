@@ -200,30 +200,6 @@
     top: -211px
   }
 }
-/* If screen size is 375px wide, or less */
-@media screen and (max-width: 376px) {
-  .heading, .subheading {
-    text-align: center;
-    letter-spacing: 12px;
-  }
-}
-/* If screen size is more than 376px wide, or more*/
-@media screen and (min-width: 377px) {
-  .subheading {
-    text-align: left;
-    letter-spacing: 20px;
-    padding: 0px 50px 0px 87px;
-  }
-}
-/* If screen size is more than 376px wide, or more*/
-@media screen and (min-width: 377px) {
-  .heading {
-    text-align: left;
-    letter-spacing: 11px;
-    padding: 0px 50px 0px 87px;
-  }
-}
-
 
 /* contact page */
 
@@ -294,6 +270,7 @@
   -webkit-font-smoothing: antialiased;
   font-size: 22px;
   margin-bottom: 200px;
+  line-height: 1.5;
 }
 /* If screen size is 375px wide, or less */
 @media screen and (max-width: 375px) {
@@ -304,7 +281,7 @@
 /* If screen size is more than 376px wide, or more*/
 @media screen and (min-width: 376px) {
   .abouttext {
-    padding: 50px 700px 50px 84px;
+    padding: 50px 100px;
   }
 }
 
