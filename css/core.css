@@ -153,7 +153,7 @@
 /* If screen size is more than 768px wide, or more*/
 @media screen and (min-width: 768px) {
   .pagetext {
-    padding: 33px 0px 40px 87px;
+    padding: 33px 87px 40px 87px;
   }
 }
 /* If screen size is more than 1366px wide, or more*/
