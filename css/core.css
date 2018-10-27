@@ -85,17 +85,16 @@
   width: 546px;
   max-width: 70%;
   float: right;
-  margin-top: -77px;
   margin-right: 57px;
   position: relative;
   z-index: 1;
 }
 .pagetext {
   margin-bottom: 60;
-  white-space: pre-line;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 20px;
+  line-height: 1.8;
   position: relative;
   z-index: 2;
   float: left;
@@ -160,25 +159,28 @@
 /* If screen size is more than 1366px wide, or more*/
 @media screen and (min-width: 1366px) {
   .pagetext {
-    padding: 33px 85px 40px 87px;
+    padding: 33px 720px 40px 87px;
   }
 }
 /* If screen size is 768px wide, or less */
 @media screen and (max-width: 768px) {
   .titleimage {
    margin-right: 52px;
+   margin-top: -77px;
   }
 }
 /* If screen size is more than 768px wide, or more*/
 @media screen and (min-width: 768px) {
   .titleimage {
     margin-right: 114px;
+    margin-top: -77px;
   }
 }
 /* If screen size is more than 1366px wide, or more*/
 @media screen and (min-width: 1366px) {
   .titleimage {
-    margin-right: 52px;
+    margin-right: 75px;
+    margin-top: -518px;
   }
 }
 /* If screen size is 375px wide, or less */
