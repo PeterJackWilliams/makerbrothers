@@ -170,14 +170,6 @@
     width: 648px;
   }
 }
-/* If screen size is more than 768px wide, or more*/
-@media screen and (min-width: 768px) {
-  .titleimage {
-    position: absolute;
-    margin: 280px 0px 0px 166px;
-    width: 648px;
-  }
-}
 /* If screen size is more than 1366px wide, or more*/
 @media screen and (min-width: 1366px) {
   .titleimage {
