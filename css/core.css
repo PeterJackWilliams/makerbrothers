@@ -105,7 +105,7 @@
 /* If screen size is 375px wide, or less */
 @media screen and (max-width: 375px) {
   .secondrywork {
-    margin-top: 640px;
+    margin-top: 851px;
   }
 }
 /* If screen size is more than 376px wide, or more*/
@@ -123,7 +123,7 @@
 /* If screen size is more than 769px wide, or more*/
 @media screen and (min-width: 768px) {
   .secondrywork {
-    margin-top: 690px;
+    margin-top: 725px;
   }
 }
 /* If screen size is 1366px wide or less */
@@ -165,7 +165,7 @@
 /* If screen size is 768px wide, or less */
 @media screen and (max-width: 768px) {
   .titleimage {
-   margin-right: 52px;
+   margin-right: 57px;
    margin-top: -77px;
   }
 }
