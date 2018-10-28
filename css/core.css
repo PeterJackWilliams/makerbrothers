@@ -69,7 +69,6 @@
 /* other pages */
 
 .secondrywork {
-  position: absolute;
   text-align: center;
   padding-bottom: 150px;
 }
@@ -116,7 +115,7 @@
 }
 /* If screen size is 768px wide or less */
 @media screen and (max-width: 768px) {
-  .secondary work {
+  .secondarywork {
     margin-top: 685px;
   }
 }
