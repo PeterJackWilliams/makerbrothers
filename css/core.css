@@ -175,8 +175,8 @@
     margin-top: -77px;
   }
 }
-/* If screen size is more than 1366px wide, or more*/
-@media screen and (min-width: 1366px) {
+/* If screen size is more than 1360px wide, or more*/
+@media screen and (min-width: 1360px) {
   .titleimage {
     margin-right: 75px;
     margin-top: -518px;
